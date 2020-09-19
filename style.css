@@ -1,0 +1,89 @@
+body {
+  background: #6b6b69;
+  color: white;
+}
+
+.info {
+  position: relative;
+  font-family: Arial;
+  margin: 10px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+#title {
+  font-size:20px;
+}
+
+#build div {
+  width: 217px;
+  height: 217px;
+  border: 1px dashed gray;
+  display: inline-block;
+  margin: 0;
+}
+
+#build {
+  position: relative;
+  width: 665px;
+  height: 665px;
+  background: black;
+  border: 5px solid black;
+  margin: auto;
+}
+
+.head {
+  position: absolute;
+  top: 40px; left: 40px;
+}
+
+.chest {
+  position: absolute;
+  top: 340px; left: 40px;
+}
+
+#items {
+  width: 100%
+}
+
+img {
+  height: 217px;
+  width: 217px;
+}
+
+#item1,
+#item2,
+#item3,
+#item4,
+#item5,
+#item6 {
+  height: 217px;
+  width: 217px;
+  
+  /*display: inline-block;*/
+}
+
+#item1 {
+  background: linear-gradient(to bottom right, orange, orange, yellow);
+}
+
+#item2 {
+  background: linear-gradient(to right, red, orange);
+}
+
+#item3 {
+  background: linear-gradient(red, orange);
+}
+
+#item4 {
+  background: linear-gradient(to bottom right, red, red, orange);
+}
+
+#item5 {
+  background: yellow;
+}
+
+#item6 {
+  background: linear-gradient(orange, yellow);
+}

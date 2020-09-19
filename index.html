@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<script type="text/javascript" src="dragdrop.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<head>
+<title>Drag Drop</title>
+</head>
+
+<body>
+<div class="info">
+  <div id="title">BUILD</div>
+  <div id="text">Drag and drop the equipement pieces in the grid.</div>
+</div>
+
+<div id="items">
+  <div id="item1" draggable="true" ondragstart="drag(event)"></div>
+  <div id="item2" draggable="true" ondragstart="drag(event)"></div>
+  <div id="item3" draggable="true" ondragstart="drag(event)"></div>
+  <div id="item4" draggable="true" ondragstart="drag(event)"></div>
+  <div id="item5" draggable="true" ondragstart="drag(event)"></div>
+  <div id="item6" draggable="true" ondragstart="drag(event)"></div>
+</div>
+
+<div id="build">
+  <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <div id="div2" class="head" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <div id="div5" class="chest" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <div id="div6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <div id="div7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <div id="div8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <div id="div9" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+</div>
+
+<div class="info"><p>Congratulations if you finished!<p></div>
+</body>
+</html>
